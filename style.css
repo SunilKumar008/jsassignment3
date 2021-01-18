@@ -1,0 +1,26 @@
+#h1
+{
+    background-color: cornflowerblue;
+    height: 400px;
+   
+}
+#bol{
+    text-shadow: darkgray;
+    font-weight: bolder;
+}
+#head
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    
+}
+#h2
+{
+    background-color: #38E1DF;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#fon
+{
+    font-size: 28px;
+}

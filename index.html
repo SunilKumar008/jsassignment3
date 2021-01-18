@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1>K-ELECTRIC BILL</h1>
+        <span>Enter Customar Name:</span><br>
+        <input type="text" id="name" name="name"><br>
+
+        <span>Enter Units</span><br>
+        <input type="text" id="unit" name="unit"><br>
+        <button type="button" onclick="electric()">Genrate Bill</button>
+        <div id="k-name"></div>
+        <div id="k-mon"></div>
+        <div id="k-unit"></div>
+        <div id="k-x"></div>
+        <div id="k-amount"></div>
+        <div id="k-charge"></div>
+        <div id="k-gross"></div>
+    </div>
+    <!--marksheet-->
+    <div class="container ">
+        <div class="row ">
+            <div class="col-sm-12 col-md-5 col-lg-5 pt-5 " id="h1">
+                <div class="text-center">
+                    <form onsubmit="return false">
+                        <h1 id="head">RESULT</h1>
+                        <span id="bol">Enter English Marks</span><br>
+                        <input type="text" name="english" id="english"><br>
+                        <span id="bol">Enter Math Marks</span><br>
+                        <input type="text" name="math" id="math"><br>
+                        <span id="bol">Enter Urdu Marks</span><br>
+                        <input type="text" name="urdu" id="urdu"><br><br>
+                        <button onclick="sub();">submit here </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1"></div>
+
+
+            <div class="col-sm-12 col-md-5 col-lg-5 pt-5 " id="h2">
+
+                <div class="text-center" id="fon">
+                    <div>
+                        <h1>MARK SHEET</h1>
+                    </div>
+                    <div id="m-english"></div>
+                    <div id="m-math"></div>
+                    <div id="m-urdu"></div>
+                    <div id="res"></div>
+                    <div id="percen"></div>
+                    <div id="remarks" style="color: blue;"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
